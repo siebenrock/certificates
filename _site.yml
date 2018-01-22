@@ -1,0 +1,6 @@
+name: "Certificates"
+navbar:
+  title: "Certificates"
+  left:
+    - text: "Certificates"
+      href: index.html
