@@ -9,12 +9,12 @@
 
 ### Classes
 
-``` 
+```
 import media
- 
+
 toy_story = media.Movie("Toy Story", "Toys come to live", "link.jpg", "link")
 # new instance of movie, __init__ gets called, toy_story = self
- 
+
 print(toy_story.storyline) # prints storyline
 toy_story.show_trailer # opens browser and plays trailer
 print(media.Movie.VALID_RATINGS) # returns list of valid ratings stored in class Movie()
@@ -23,18 +23,18 @@ media.Movie.__doc__ # returns first string in class Movie()
 
 ```
 import webbrowser
- 
+
 class Movie():
   """ Some text to describe class"""
- 
+
 VALID_RATINGS = ["G", "PG", "PG-13", "R"]
- 
+
 def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
-  self.title =  movie_title
+  self.title =  movie_title
   self.storyline = movie_storyline
   self.poster_image_url = poster_image
   self.trailer_youtube_url = trailer_youtube
- 
+
 def show_trailer(self):
   webbrowser.open(self.trailer_youtube_url)
 ```
@@ -53,26 +53,26 @@ class Parent():
     print("Parent Constructor Called")
     self.last_name = last_name
     self.eye_color = eye_color
- 
+
   def show_info(self):
     print("Last Name - " + self.last_name)
     print("Eye Color - " + self.eye_color)
- 
+
 class Child(Parent): # show inheritance from class Parent()
   def __init__(self, last_name, eye_color, number_of_toys):
     print("Child Constructor Called")
     Parent.__init__(self, last_name, eye_color)
     self.number_of_toys = number_of_toys
- 
+
   def show_info(self)
     print("Last Name - " + self.last_name)
     print("Eye Color - " + self.eye_color)
     print("Number of toys - " + str(self.number_of_toys))
- 
+
 billy_cyrus = Parent("Cyrus", "blue")
 print(billy_cyrus.last_name)
 billy_cyrus.show_info()
- 
+
 miley_cyrus = Child("Cyrus", "blue", 5)
 miley_cyrus.show_info()
 ```
@@ -83,18 +83,18 @@ miley_cyrus.show_info()
 
 ### Structure
 
-``` 
+```
 <!DOCTYPE html>
- 
+
 <html>
 <head>
 <title>Quiz - Hello, world!</title>
-    <style>
+    <style>
     p {
     color: blue;
-    }       
+    }
     /- add CSS here -/
-    </style>
+    </style>
 </head>
 <body>
 <h1>Hello, world!</h1>
@@ -103,14 +103,14 @@ miley_cyrus.show_info()
 </body>
 </html>
 ```
- 
+
 ### Comments
 
 - HTML
   - `<!-- This is comment -->`
 - CSS
   - `/- add CSS here -/`
- 
+
 ### IDs
 
 - Can only be applied to one element
@@ -123,7 +123,7 @@ miley_cyrus.show_info()
 - Can be added to multiple elements
 - Elements can have multiple classes, separate by spaces, order of classes does not matter
 - Refer to in CSS by `.class-name {}`
- 
+
 ### Browser Developer Tools
 
 - Open by <kbd>CMD</kbd> + <kbd>Alt</kbd> + <kbd>I</kbd>
@@ -149,27 +149,27 @@ miley_cyrus.show_info()
 ### Shadow
 
 - [CSS Matic Box Shawdow](http://www.cssmatic.com/box-shadow)
- 
+
 ### Fonts
 
 - Web safe fonts
   - [CSS Font Stack](https://www.cssfontstack.com)
- 
+
 ### Stylesheet
 
 - File containing all CSS for website
 - Insert in `<head>`
   - `<link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">`
 
-``` 
+```
 <head>
-  <title>My Webpage</title>
-  <!-- ... -->
-  <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
-  <!-- ... -->
+  <title>My Webpage</title>
+  <!-- ... -->
+  <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
+  <!-- ... -->
 </head>
 ```
- 
+
 ### Sizing
 
 - Box model
