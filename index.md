@@ -1,6 +1,6 @@
 | Type | Title | Certificate | Notes |
 | :--- | :--- | :---: | :---: |
-| Udacity | Full Stack Web Development | [Certificate](https://siebenrock.github.io/certificates/FullStackWebDevelopment.pdf) | [Notes](https://siebenrock.github.io/certificates/FullStackWebDevelopment) |
+| Udacity | Full Stack Web Development | [Certificate](https://confirm.udacity.com/WCEASJHL) | [Notes](https://siebenrock.github.io/certificates/FullStackWebDevelopment) |
 | Udacity | Deep Learning | [Certificate](https://siebenrock.github.io/certificates/DeepLearningCertificate) ||
 | Coursera | Machine Learning | [Certificate](https://www.coursera.org/account/accomplishments/certificate/D8KUYSKG7CSS) ||
 | Coursera | Operations Analytics | [Certificate](https://www.coursera.org/account/accomplishments/certificate/XFX6GFYK8SP7) ||
