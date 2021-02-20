@@ -7,3 +7,4 @@
 | Coursera | Operations Analytics | 4 weeks | [Certificate](https://www.coursera.org/account/accomplishments/certificate/XFX6GFYK8SP7) ||
 | Udemy | Python Data Science And Machine Learning || [Certificate](https://www.udemy.com/certificate/UC-CNTLJPZL/) ||
 | Udemy | Video Editing in Premiere Pro || [Certificate](https://www.udemy.com/certificate/UC-I4S6Z5EW/) ||
+| Udemy | Natural Language Processing with Python || [Certificate](https://www.udemy.com/certificate/UC-12d55736-2c28-4e7d-ac87-f4fbd296c657/) ||
